@@ -2,10 +2,14 @@
     "compilerOptions": {
       "outDir": "../priv/static/js",
       "noImplicitAny": true,
-      "module": "es6",
+      "module": "CommonJS",
       "target": "es5",
       "allowJs": true,
-      "typeRoots": ["@types"]
+      "typeRoots": ["@types"],
+      "baseUrl": "./",
+      "paths": {
+        "*": ["ts/@types/*"]
+      }
     },
     "include": [
       "ts/**/*"
