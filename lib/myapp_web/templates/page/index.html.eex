@@ -1,10 +1,10 @@
-<section class="phx-hero">
+<section class="jumbotron">
   <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
   <p>A productive web framework that<br/>does not compromise speed or maintainability.</p>
 </section>
 
 <section class="row">
-  <article class="column">
+  <article class="col-sm">
     <h2>Resources</h2>
     <ul>
       <li>
@@ -18,7 +18,7 @@
       </li>
     </ul>
   </article>
-  <article class="column">
+  <article class="col-sm">
     <h2>Help</h2>
     <ul>
       <li>
