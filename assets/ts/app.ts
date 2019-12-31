@@ -1,5 +1,5 @@
 import "../scss/app.scss";
-import "phoenix_html";
+import "jquery_ujs";
 
 import "bootstrap";
 
