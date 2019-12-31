@@ -12,7 +12,7 @@ export function googleAnalyticsToken() {
 
 // Handle form submissions redirects with turbolinks
 // This allows you to not put data-remote: "true" on forms
-export function bindFormSubmissionsByDefault() {
+export function bindTurbolinksFormSubmissionsByDefault() {
     $(document).on("submit", "form:not(.turbolinks-disabled)", function(event) {
         event.preventDefault();
         
