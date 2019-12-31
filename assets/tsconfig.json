@@ -3,7 +3,9 @@
       "outDir": "../priv/static/js",
       "noImplicitAny": true,
       "module": "es6",
-      "target": "es5"
+      "target": "es5",
+      "allowJs": true,
+      "typeRoots": ["@types"]
     },
     "include": [
       "ts/**/*"
