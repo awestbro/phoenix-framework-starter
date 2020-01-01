@@ -32,17 +32,6 @@ If you like this repo, keep up with me at [my personal blog](https://aaronwestbr
 
 ---
 
-## TODOS:
-
-- [x] Add Typescript Support
-- [x] Add Turbolinks Support
-- [x] Add Stimulus Support
-- [x] Add Bootstrap Support
-- [ ] Replace phx.gen templates with Bootstrap friendly versions
-- [ ] Form submission example
-
----
-
 ## Make it your own!
 
 To make this app your own, do a case-sensitive find/ replace in this folder for Myapp => NewAppName and myapp => newappname. You will also have to replace two folder structures under lib/myapp* and test/myapp*
